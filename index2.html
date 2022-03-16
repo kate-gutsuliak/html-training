@@ -3,79 +3,131 @@
     <head>
         <meta charset="UTF-8" />
         <title>Kate CV</title>
+        <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
-        <table cellspacing="13">
-            <tr>
-                <td><img src="katka.jpeg " width="300" alt="Моё фото" /></td>
-                <td>
-                    <h1>Екатерина Гуцуляк</h1>
-                    <p>
-                        <em>
+        <!-- CONTAINER START -->
+        <div class="container">
+            <!-- Info start -->
+            <div class="info">
+                <div class="info-main">
+                    <div class="info-main__photo">
+                        <img src="katka.jpeg " alt="Моё фото" class="avatar" />
+                    </div>
+                    <div class="info-main__text">
+                        <h1>Екатерина Гуцуляк</h1>
+                        <p>
                             Я студентка Харьковского педагогического университета имени <strong>Г.С.Сковороды </strong>
-                        </em>
-                    </p>
+                        </p>
+                        <p>Кафедра восточных языков</p>
+                        <p>Специальность : Китайский язык и литература</p>
+                    </div>
+                </div>
+
+                <div class="info-text">
+                    <p>Люблю путешествовать,узнавать о культурных особеностях стран,увлечена модой и стилем.</p>
                     <p>
-                        Я люблю путешествовать,узнавать о культтурных особеностях стран которые я посещаю,также я
-                        увлечена модой и стилем
+                        Являюсь старостой группы, а также членом союза студентов и молодёжи факультета иностранных
+                        языков
                     </p>
-                </td>
-            </tr>
-        </table>
+                </div>
+            </div>
+            <!-- Info end -->
 
-        <hr size="2" noshade="300" color="#42bcf5" />
-        <h2>Мои социальные сети</h2>
-        <ul type="square">
-            <li><a href="https://instagram.com/kate_guz_muz" target="_blank ">Instagram</a></li>
-        </ul>
-        <hr size="2" noshade="300" color="#42bcf5" />
-        <h2>Мои хобби</h2>
-        <ol>
-            <li>Мода</li>
-            <li>Плавание</li>
-            <li>Компьютерные игры</li>
-        </ol>
-        <hr size="2" noshade="300" color="#42bcf5" />
-        <h2>Опыт роботы</h2>
-        <table border="3">
-            <tr>
-                <th>Период работы</th>
-                <th>Трудоустройство</th>
-                <th>Должность</th>
-            </tr>
-            <tr>
-                <td>июль 2018 - август 2018</td>
-                <td>не официально</td>
-                <td>садовник</td>
-            </tr>
+            <!-- Work exp start -->
+            <div class="card bg-green">
+                <h2>Опыт роботы</h2>
+                <table class="table">
+                    <tr>
+                        <td>няня</td>
+                        <td>не официально</td>
+                        <td>май 2016-август 2016</td>
+                    </tr>
+                    <tr>
+                        <td>садовник</td>
+                        <td>не официально</td>
+                        <td>июль 2018 - август 2018</td>
+                    </tr>
 
-            <tr>
-                <td>август 2021 - ноябрь 2021</td>
-                <td>не официально</td>
-                <td>упаковщица</td>
-            </tr>
-            <tr>
-                <td>ноябрь 2021 - февраль 2022</td>
-                <td>не официально</td>
-                <td>сиделка</td>
-            </tr>
-        </table>
+                    <tr>
+                        <td>упаковщица</td>
+                        <td>не официально</td>
+                        <td>август 2021 - ноябрь 2021</td>
+                    </tr>
+                    <tr>
+                        <td>сиделка</td>
+                        <td>не официально</td>
+                        <td>ноябрь 2021 - февраль 2022</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card bg-yellow">
+                <h2>Языки</h2>
+                <ul>
+                    <li>Украинскиий - native</li>
+                    <li>Русский - native</li>
+                    <li>Английский - B1</li>
+                    <li>Китайский - HSK3</li>
+                </ul>
+            </div>
 
-        <h2>Дополнительныы контакты</h2>
-        <a href="telegram.html">Просмотреть Telegram </a>
-        <hr size="2" noshade="300" color="#42bcf5" />
+            <!-- Work exp end -->
 
-        <h2>Связаться со мной</h2>
-        <form action="/index2.html" method="get">
-            <label for="name">Ваше имя</label>
-            <input name="name" type="text" id="name" placeholder="Введите ваше имя" />
-            <br />
-            <label for="email">Ваше Email</label>
-            <input name="email" type="email" id="email" placeholder="Введите ваше email" />
-            <input type="submit" />
-            <br />
-            <label for="text">Ваше текст</label>
-            <textarea name="text" id="text"></textarea>
-        </form>
+            <!-- About me start -->
+
+            <div class="card bg-yellow">
+                <h2>Мои хобби</h2>
+                <ol class="list">
+                    <li>Путешествия</li>
+                    <li>Мода</li>
+                    <li>Плавание</li>
+                    <li>Компьютерные игры</li>
+                    <li>Макияж</li>
+                    <li>Фото на плёнку</li>
+                </ol>
+            </div>
+            <div class="card bg-yellow">
+                <h4>Мои социальные сети</h4>
+                <li><a href="https://instagram.com/kate_guz_muz" target="_blank ">Instagram</a></li>
+                <li><a href="telegram.html">Telegram </a></li>
+            </div>
+
+            <!-- About me end -->
+
+            <!-- Contact me start -->
+
+            <div class="card bg-red">
+                <div class="contact">
+                    <h2>Связаться со мной</h2>
+
+                    <form action="/index2.html" method="get">
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input name="name" type="text" id="name" placeholder="Введите ваше имя" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Ваше Email</label>
+                                <input type="email" id="email" placeholder="Введите ваше email ..." />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="text">Ваш текст:</label>
+                            <textarea id="text" rows="2" cols="15"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="submit-button" type="submit" value="Связаться" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Contact me end -->
+
+            <div style="margin-bottom: 500px"></div>
+        </div>
+        <!-- Conainer end -->
     </body>
 </html>

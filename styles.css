@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+    background-color: #0a0f1e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+
+    /*font: normal 16px "Raleway", sans-serif;*/
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #9f98e4;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #9f98e4;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(159, 152, 228, 0.33);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info-main {
+    display: flex;
+    padding: 10px 0;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+
+    .info-main {
+        flex-direction: column;
+    }
+
+    .info .info-text {
+        padding: 10px 30px;
+    }
+}
+
+.info-main__text {
+    padding: 0 30px;
+}
+
+.info-text {
+    padding: 10px 0;
+    /* margin-left: 40px; */
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.info p {
+    color: #f8f8f8;
+    margin: 0;
+    /* font-style: italic; */
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 28px;
+    text-align: justify;
+    /* text-transform: uppercase;*/
+    /*letter-spacing 5px;*/
+    /*word-spacing: 42px;*/
+}
+/*Box Model*/
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+/*.social {
+    background-color: rosybrown;
+}*/
+
+/*.box-model div {
+    float: left;
+    background: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: ;
+}*/
+
+.bg-yellow {
+    background: #3849807a;
+}
+
+.bg-green {
+    background: #3849807a;
+}
+
+.bg-red {
+    background: #3849807a;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #f8f8f8;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #f8f8f8;
+}
+
+.form-group {
+    padding: 10px 0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #9f98e4;
+    color: #f8f8f8;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-group input::placeholder {
+    color: #a098e481;
+}
+
+.form-group .submit-button {
+    background: transparent;
+    border: 1px solid #9f98e4;
+    padding: 15px;
+    color: white;
+    border-radius: 2px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-group .submit-button:hover {
+    border: 1px solid #f8f8f8;
+}

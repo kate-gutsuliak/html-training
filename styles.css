@@ -21,11 +21,15 @@ h4 {
     text-decoration: none;
 } */
 
-a:visited {
+.container a {
     color: #fff;
 }
 
-a:hover {
+.container a:visited {
+    color: #fff;
+}
+
+.container a:hover {
     color: #9f98e4;
 }
 
